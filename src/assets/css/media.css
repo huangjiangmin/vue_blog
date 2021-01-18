@@ -1,0 +1,20 @@
+
+/*
+屏幕大于1200px
+*/
+@media screen and (max-width: 2000px) { 
+    @import '../../assets/css/commons.css'; 
+} 
+/*
+屏幕在1200到1199之间的
+*/
+@media screen and (min-width: 1200px) and (max-width:1199px) { 
+    /* @import '../../assets/css/common.less'; */
+    @import '../../assets/css/commons.css'; 
+} 
+/*
+屏幕小于768px的
+*/
+@media screen and (max-width:768px) { 
+    /* @import '../../assets/css/nav-h5.css'; */
+}
