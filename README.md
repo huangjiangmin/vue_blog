@@ -1,15 +1,15 @@
 # 开发一个简单的个人博客
 
 **整体风格上，我对设计没有太多的见解，做的时候参考了好多网上现有的博客，总体喜欢简约。**
-![大概]](https://img-blog.csdnimg.cn/20201223184703472.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70#pic_center)
+![Image text](https://img-blog.csdnimg.cn/20201223184703472.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70#pic_center)
 
-![大概]](https://img-blog.csdnimg.cn/202012231843361.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70)
-![大概]](https://img-blog.csdnimg.cn/20201223184333744.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70)
+![Image text](https://img-blog.csdnimg.cn/202012231843361.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70)
+![Image text](https://img-blog.csdnimg.cn/20201223184333744.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70)
  
 # 用到的技术
  
-## 前端 
-**正好在学Vue**
+## 前端  
+
   **vue +  vue-router + axios + element ui框架的样式 + aos.css 动画 + less + media 媒体查询 自适应 Web+H5**
  
   **包含技术点：**
@@ -65,3 +65,8 @@
  6. dockerfile 文件，实现项目打包镜像。 
 
 ## " 基本实现了一个简单的个人网页 ：  [https://www.dahuangzi.work/](https://www.dahuangzi.work/) "
+
+## 1、获取项目到本地
+## 2、vscode 终端 输入 npm i 下载package.json中的依赖包
+## 3、npm run dev 启动
+## 4、修改 utils 下 https 中封装的 baseURL 为自己的后端接口地址
