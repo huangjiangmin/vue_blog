@@ -5,7 +5,25 @@
 
 ![Image text](https://img-blog.csdnimg.cn/202012231843361.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70)
 ![Image text](https://img-blog.csdnimg.cn/20201223184333744.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2h1YW5namlhbmdtaW4=,size_16,color_FFFFFF,t_70)
- 
+
+# 项目结构 
+	 -src
+	   -assets 			//公共 css js  img
+	 -components		//公共组件 封装
+	 	-card 			//博客基本信息卡片组件
+	 	-footer			//页脚
+	 	-nav			//页头
+	 -router			//路由
+	 -utils				//工具类
+	 -views				
+	 	-author			
+	 	-code
+	 	-essaydetail		//博客信息页
+	 	-home			
+	 	-labels
+	 	-life
+	 	-message		//留言
+
 # 用到的技术
  
 ## 前端  
@@ -27,21 +45,10 @@
  
  
 # 后端
-## 1、 node.js
-**egg.js  +mongoDB + redis 实现**
-
- **包含技术点：**
- 
- 1.  安装egg，创建项目 
- 2. 引入mongo  、redis     （config/config.default.js）
- 3. extend框架扩展：统一返回 （code,msg,data）
- 4. middleware中间件：统一异常处理、Jwt自定义登陆拦截
- 5. 封装redis公共方法 service
- 6. 基本增删改查
 
  
 
-## 2、Java
+## Java
 **springboot + mysql + mybatis + redis**
 
  **包含技术点：（这对后端开发其实没啥技术点）**
