@@ -125,14 +125,14 @@
 
 <style lang="less" scoped>
 
- @media (max-width: 991px) {
+// @media screen and (max-width: 3000px) and (min-width: 767px) {
     /* GitHub Cornor */
     .github-corner :hover .octo-arm {
         animation: octocat-wave 560ms ease-in-out;
     }
    .github-corner >svg {
-     fill: #fff !important;
-     color: #222 !important;
+     fill: rgb(0, 0, 0) !important;
+     color: rgb(255, 255, 255) !important;
    }
     .github-corner .github-corner:hover .octo-arm {
       animation: none;
@@ -140,7 +140,7 @@
     .github-corner .github-corner .octo-arm {
       animation: octocat-wave 560ms ease-in-out;
     }
-  }
+  // }
   @-moz-keyframes octocat-wave {
     0%, 100% {
       -webkit-transform: rotate(0);
